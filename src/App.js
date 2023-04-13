@@ -1,37 +1,79 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
+const navbar = (
+  <nav>
+      <h1>Bob's Bistro</h1>
+      <ul>
+        <li>Menu</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+)
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-
+    navbar  
+    );
+    
 }
 
 export default App;
 
-class Car {
-  constructor(name) {
-    this.brand = name;
-    
-  }
-}
-const mycar = new Car("Ford")
 
-document.write(mycar.brand)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //   <div className="App">
+    //     <header className="App-header">
+  //       <img src={logo} className="App-logo" alt="logo" />
+  //       <p>
+  //         Edit <code>src/App.js</code> and save to reload.
+  //       </p>
+  //       <a
+  //         className="App-link"
+  //         href="https://reactjs.org"
+  //         target="_blank"
+  //         rel="noopener noreferrer"
+  //       >
+  //         Learn React
+  //       </a>
+  //     </header>
+  //   </div>
