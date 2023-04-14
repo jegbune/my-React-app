@@ -1,20 +1,55 @@
 // import logo from './logo.svg';
+// import logo from './logo512.png'
 import './App.css';
 
-const navbar = (
-  <nav>
-      <h1>Bob's Bistro</h1>
-      <ul>
-        <li>Menu</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+function Header() {
+
+  return (
+    <header>
+      <nav>
+      <img src="./logo512.png" width= "40px" />
+      </nav>
+    </header>
+  
+  )
+}
+function MainContent() {
+  return (
+    <div>
+       <ul className='nav-list'>
+          <li>Menu</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+
+      <h1>Reasons I'm excited to learn React</h1>
+        <ol>
+          <li>Menu</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ol>
+    </div>
+  )
+}
+      
+
+function Footer() {
+return (
+<footer>
+        © 2023 Egbune development. All rights reserved.
+      </footer>
 )
+
+}
+
 function App() {
   return (
-    navbar  
-    );
+    <div>
+    <Header />
+    <MainContent />,
+    <Footer />   
+    </div>
+  )
     
 }
 
