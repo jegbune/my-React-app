@@ -2,31 +2,26 @@
 // import logo from './logo512.png'
 import './App.css';
 
-function Header() {
 
-  return (
-    <header>
-      <nav>
-      <img src="./logo512.png" width= "40px" />
-      </nav>
-    </header>
-  
-  )
-}
 function MainContent() {
   return (
     <div>
+    <header className='header'>
+      <nav>
+      <img src="./logo512.png"  alt='logo' />
+      </nav>
        <ul className='nav-list'>
           <li>Menu</li>
           <li>About</li>
           <li>Contact</li>
         </ul>
+    </header>
 
       <h1>Reasons I'm excited to learn React</h1>
         <ol>
-          <li>Menu</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>It's a popular library, so I'll be able to fir in with the cool kids!</li>
+          <li>I'm more likely to get a job as a developer if I know React</li>
+          <li>It look pretty fun to use</li>
         </ol>
     </div>
   )
@@ -45,7 +40,6 @@ return (
 function App() {
   return (
     <div>
-    <Header />
     <MainContent />,
     <Footer />   
     </div>
