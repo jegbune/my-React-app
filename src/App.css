@@ -81,7 +81,7 @@ nav > img {
 .nav-list > li:hover{
   transform:scale(1.2);
   opacity: 0.5;
-  transition: transform, background 0.01s
+  transition: transform 0.07s ease 0s
 }
 
 footer {
