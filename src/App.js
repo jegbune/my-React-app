@@ -3,19 +3,12 @@
 import './App.css';
 import MainContent from './App1';
 import MainPage from './App2'
+import Footer from './App3'
 
 
 
       
 
-function Footer() {
-return (
-      <footer>
-        © 2023 Egbune development. All rights reserved.
-      </footer>
-)
-
-}
 
 function App() {
   return (
