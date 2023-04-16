@@ -5,11 +5,6 @@ import MainContent from './App1';
 import MainPage from './App2'
 import Footer from './App3'
 
-
-
-      
-
-
 function App() {
   return (
     <div>
