@@ -5,7 +5,7 @@ export default function MainContent() {
     <div>
         <header className='header'>
             <nav>
-                <img src="./logo512.png"  alt='logo' />
+                <img src="..public/logo512.png"  alt='logo' />
             </nav>
             <ul className='nav-list'>
                 <li>Pricing</li>
