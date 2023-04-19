@@ -1,19 +1,31 @@
 // import logo from './logo.svg';
 // import logo from './logo512.png';
 import './App.css';
-import MainContent from './App1';
-import MainPage from './App2'
-import Footer from './App3'
+// import MainContent from './App1';
+// import MainPage from './App2'
+// import Footer from './App3'
+
+// function App() {
+//   return (
+//     <div>
+//     <MainContent />,
+//     <MainPage />
+//     <Footer />   
+//     </div>
+//   )
+    
+// }
+import "./style.css"
+import Header from "./Header"
+import MainBody from "./MainBody"
 
 function App() {
-  return (
+  return(
     <div>
-    <MainContent />,
-    <MainPage />
-    <Footer />   
+    <Header />
+    <MainBody />
     </div>
   )
-    
 }
 
 export default App;

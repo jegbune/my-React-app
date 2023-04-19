@@ -1,11 +1,12 @@
-import React from 'react' 
+import React from 'react'
+// import logo from "../images=/logo512.png"
 
 export default function MainContent() {
     return (
     <div>
         <header className='header'>
             <nav>
-                <img src="..public/logo512.png"  alt='logo' />
+                <img src="./logo512.png"  alt='logo' />
             </nav>
             <ul className='nav-list'>
                 <li>Pricing</li>
@@ -14,7 +15,5 @@ export default function MainContent() {
             </ul>
         </header>
     </div>
-    )
+    ) 
 }
-
-// export default MainContent
