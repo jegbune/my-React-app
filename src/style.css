@@ -6,46 +6,73 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
-    height: 70px;
-    background: #111;
+    padding: 30px 25px;
+    height: 90px;
+    background: #21222A;
     color: #fff;
+}
+nav > h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+nav > h4 {
+    color: #DEEBF8;
+    font-weight: 600;
 }
 img{
     display: block;
+    height:30px;
 }
 .logo-container {
     display: flex;
     align-items: center;
-    color: #1cd6f7;
-    font-weight: 900;
+    color: #61DAFB;
+    font-weight: 700;
 }
 .logo {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
+
+/*--------------------
+MainBody Styling
+------------------- */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: #1d1d1d;
-}
+    margin: 0;
+    background: #282D35;
+}   
 .container {
-    margin: 40px;
+    /* margin: 40px; */
     color: #fff;
+    background-image: url(./logo512.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    padding: 57px 27px;
 }
 
+main > .title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.ulist {
+    margin-top: 46px;
+    max-width: 400px;
+}
 .list {
-    line-height: 40px;
-    color: #1cd6f7;
+    /* padding: 10px; */
+    padding-block: 10px;
+    /* color: #1cd6f7; */
 }
 
-.listext {
-    color: #fff;
-}
-.side-image {
-    position: absolute;
-    width: 40%;
-    height: 300px;
-    top: 150px;
-    right: -110px;
-    opacity: 0.1;
+.list::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }

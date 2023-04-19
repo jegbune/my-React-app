@@ -5,9 +5,9 @@ function Header() {
         <nav>
         <div className="logo-container">
             <img src="./logo512.png" className = "logo" alt ="logo" />
-            <h1 className="logo-Text">ReactFacts</h1>
+            <h3 className="logo-Text">ReactFacts</h3>
         </div>
-        <p>React Course - Project 1</p>
+        <h4>React Course - Project 1</h4>
         </nav>
     )
 }
