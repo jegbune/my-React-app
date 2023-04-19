@@ -16,6 +16,7 @@
     
 // }
 // export default App
+
 // import "./style.css"
 // import Header from "./Header"
 // import MainBody from "./MainBody"
@@ -31,10 +32,20 @@
 
 // export default App;
 
+import ProfileInfo from "./Profile-info"
+import ProfileDetail from  "./Profile-Detail"
+import "./style1.css"
 
+function App() {
+  return(
+    <div className="profile">
+    <ProfileInfo />
+    <ProfileDetail />
+    </div>
+  )
+}
 
-
-
+export default App
 
 
 
