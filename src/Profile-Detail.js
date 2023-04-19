@@ -8,7 +8,7 @@ function ProfileDetail() {
             <h3 className="sub-title">Interest</h3>
             <p className="text">Laura Smith is a Frontend web developer with 10year experience in various industries across the globe</p>
             
-       
+        <object className="svg" data="./facbook.svg" width= "48px">  </object>
         </div>
     )
 }

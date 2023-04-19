@@ -66,6 +66,7 @@ svg {
 
 .profileDetail {
     padding: 0px 20px 20px 20px;
+    /* background: #fff;  */
 }
 
 .sub-title {
@@ -73,4 +74,9 @@ svg {
 }
 .text {
     font-size: 0.8em;
+}
+
+.svg {
+    /* position: static; */
+    z-index: 10;
 }
