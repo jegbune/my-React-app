@@ -11,11 +11,12 @@ body{
     background: #111;
     color: #fff;     
     margin: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .profile-info {
     width: 100%;
-
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     text-align: center;
